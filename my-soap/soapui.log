@@ -1,0 +1,181 @@
+2020-03-02 14:02:14,852 WARN  [SoapUI] Missing folder [C:\Users\AkshayJha\Desktop\Project_New\my-soap\ext] for external libraries
+2020-03-02 14:02:15,241 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\AkshayJha\soapui-settings.xml]
+2020-03-02 14:02:17,375 INFO  [PluginManager] Adding plugin from [C:\Users\AkshayJha\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2020-03-02 14:02:17,375 INFO  [PluginManager] Adding plugin from [C:\Users\AkshayJha\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2020-03-02 14:02:18,766 WARN  [PluginManager] Could not load plugin from file [C:\Users\AkshayJha\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.mqttsupport.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 13 more
+2020-03-02 14:02:19,079 INFO  [PluginManager] Adding plugin from [C:\Users\AkshayJha\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+2020-03-02 14:02:19,235 WARN  [PluginManager] Could not load plugin from file [C:\Users\AkshayJha\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.swagger.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 12 more
+2020-03-02 14:02:19,360 INFO  [PluginManager] Adding plugin from [C:\Users\AkshayJha\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2020-03-02 14:02:20,047 WARN  [PluginManager] Could not load plugin from file [C:\Users\AkshayJha\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.postman.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 12 more
+2020-03-02 14:02:20,063 WARN  [PluginManager] Could not load plugin from file [C:\Users\AkshayJha\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.ready.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 13 more
+2020-03-02 14:02:20,110 INFO  [PluginManager] Adding plugin from [C:\Users\AkshayJha\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2020-03-02 14:02:20,625 WARN  [PluginManager] Could not load plugin from file [C:\Users\AkshayJha\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.plugins.swaggerhub.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 13 more
+2020-03-02 14:02:20,641 INFO  [PluginManager] 5 plugins loaded in 3281 ms
+2020-03-02 14:02:20,641 INFO  [DefaultSoapUICore] All plugins loaded
+2020-03-02 14:02:22,589 INFO  [WsdlProject] Loaded project from [file:/C:/Users/AkshayJha/Desktop/Project_New/my-soap/customerCustomerRepositoryV1-soapui-project.xml]
+2020-03-02 14:02:22,612 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [customerCustomerRepositoryV1]
+2020-03-02 14:02:22,617 INFO  [SoapUITestCaseRunner] Running Project [customerCustomerRepositoryV1], runType = SEQUENTIAL
+2020-03-02 14:02:22,671 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CreateCustomer]
+2020-03-02 14:02:22,703 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-03-02 14:02:22,800 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-03-02 14:02:23,227 INFO  [SoapUITestCaseRunner] running step [SOAP Request]
+2020-03-02 14:02:26,399 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2020-03-02 14:02:26,429 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2020-03-02 14:02:26,473 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2020-03-02 14:02:26,476 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2020-03-02 14:02:26,483 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2020-03-02 14:02:26,491 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2020-03-02 14:02:26,503 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2020-03-02 14:02:26,517 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2020-03-02 14:02:26,524 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2020-03-02 14:02:26,535 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshayJha/.m2/repository/com/smartbear/soapui/soapui/5.3.0/soapui-5.3.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2020-03-02 14:02:26,542 INFO  [SchemaUtils] Loading schema types from [file:\C:\Users\AkshayJha\Desktop\New%20folder\SOAP%20API%20WSDL%20EndPoints\SOAP%20API%20WSDL%20EndPoints\customerCustomerRepositoryV1.xml]
+2020-03-02 14:02:26,546 INFO  [SchemaUtils] Getting schema file:\C:\Users\AkshayJha\Desktop\New%20folder\SOAP%20API%20WSDL%20EndPoints\SOAP%20API%20WSDL%20EndPoints\customerCustomerRepositoryV1.xml
+2020-03-02 14:02:26,938 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-03-02 14:02:26,941 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-03-02 14:02:26,942 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-03-02 14:02:26,944 INFO  [SoapUITestCaseRunner] running step [GetCustomerList]
+2020-03-02 14:02:30,631 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-03-02 14:02:30,634 INFO  [SoapUITestCaseRunner] running step [GetcustomerById]
+2020-03-02 14:02:32,213 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-03-02 14:02:32,213 INFO  [SoapUITestCaseRunner] running step [DeleteCustomerById]
+2020-03-02 14:02:33,523 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-03-02 14:02:33,527 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CreateCustomer], time taken: 10764ms, status: FINISHED
+2020-03-02 14:02:33,535 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Test Case 2]
+2020-03-02 14:02:33,536 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-03-02 14:02:33,635 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CreateCustomer]
+2020-03-02 14:02:33,636 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-03-02 14:02:33,638 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-03-02 14:02:33,649 INFO  [SoapUITestCaseRunner] running step [SOAP Request]
+2020-03-02 14:02:35,132 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-03-02 14:02:35,136 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-03-02 14:02:35,137 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-03-02 14:02:35,138 INFO  [SoapUITestCaseRunner] running step [GetCustomerList]
+2020-03-02 14:02:37,603 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-03-02 14:02:37,606 INFO  [SoapUITestCaseRunner] running step [GetcustomerById]
+2020-03-02 14:02:38,934 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-03-02 14:02:38,934 INFO  [SoapUITestCaseRunner] running step [DeleteCustomerById]
+2020-03-02 14:02:40,535 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-03-02 14:02:40,535 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CreateCustomer], time taken: 6872ms, status: FINISHED
+2020-03-02 14:02:40,563 INFO  [log] create customer steps= 6
+2020-03-02 14:02:40,565 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Test Case 2], time taken: 7026ms, status: FINISHED
+2020-03-02 14:02:40,567 INFO  [SoapUITestCaseRunner] Project [customerCustomerRepositoryV1] finished with status [FINISHED] in 17937ms
+2020-03-02 14:05:32,096 WARN  [Tools] Could not delete temporary directory C:\Users\AKSHAY~1\AppData\Local\Temp\74f3dcfc-4b5d-4caa-a89a-5b9402260d8c
